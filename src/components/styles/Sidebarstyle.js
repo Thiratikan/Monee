@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const SideNav = styled.div`
   font: 100% Roboto, sans-serif;
-
   padding: 50px;
   margin: 0;
+  margin-left: 90%;
 
   nav {
     width: 300px;
