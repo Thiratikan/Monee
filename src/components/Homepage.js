@@ -1,7 +1,14 @@
 import React from "react";
+import Navbar from "./Navbar";
+import Dashboard from "./Dashboard";
 
 function Homepage() {
-  return <div>Homepage</div>;
+  return (
+    <>
+      <Navbar />
+      <Dashboard />
+    </>
+  );
 }
 
 export default Homepage;
