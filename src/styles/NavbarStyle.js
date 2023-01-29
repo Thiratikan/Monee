@@ -32,6 +32,7 @@ export const Nav = styled.div`
   a {
     font-family: "Bungee", cursive;
     font-size: 2.5em;
+    text-decoration: none;
   }
 
   .link-one {
