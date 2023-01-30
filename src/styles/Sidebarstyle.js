@@ -4,8 +4,8 @@ export const SideNav = styled.div`
   font: 100% Roboto, sans-serif;
   padding: 50px;
   margin: 0;
-  margin-left: 90%;
-
+  margin-left: 88%;
+  position: absolute;
   nav {
     width: 300px;
     background: transparent;

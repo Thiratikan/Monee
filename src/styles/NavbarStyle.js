@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Nav = styled.div`
   margin: 0;
-  height: 100vh;
+  height: 60px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
 
   .background-one {
@@ -30,8 +30,7 @@ export const Nav = styled.div`
   }
 
   a {
-    font-family: "Bungee", cursive;
-    font-size: 2.5em;
+    font-size: 2em;
     text-decoration: none;
   }
 

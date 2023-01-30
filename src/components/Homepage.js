@@ -1,12 +1,14 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Dashboard from "./Dashboard";
+import Timeline from "./Timeline";
+import Planner from "./Planner";
 
 function Homepage() {
   return (
     <>
       <Navbar />
-      <Dashboard />
+      <Timeline />
+      <Planner />
     </>
   );
 }
