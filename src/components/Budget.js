@@ -5,9 +5,7 @@ function Budget() {
   const { budget } = useContext(AppContext);
   return (
     <>
-      <div>
-        <h1>Budget: ${budget}</h1>
-      </div>
+      <p>Budget ${budget}</p>
     </>
   );
 }

@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import { AppContext } from "../context/AppContext";
 import { v4 as uuidv4 } from "uuid";
+import { ExpenseStyle } from "../styles/ExpenseFormStyle";
 
 function AddExpenseForm() {
   const { dispatch } = useContext(AppContext);
@@ -23,11 +24,11 @@ function AddExpenseForm() {
     });
   };
   return (
-    <>
+    <ExpenseStyle>
       <form onSubmit={onSubmit}>
         <div>
-          <label htmlFor="name">Name </label>
           <input
+            placeholder="Name"
             required
             type="text"
             id="cost"
@@ -36,8 +37,8 @@ function AddExpenseForm() {
         </div>
 
         <div>
-          <label htmlFor="name">Cost </label>
           <input
+            placeholder="Cost"
             required
             type="text"
             id="cost"
@@ -47,7 +48,7 @@ function AddExpenseForm() {
 
         <button type="submit">Save</button>
       </form>
-    </>
+    </ExpenseStyle>
   );
 }
 
