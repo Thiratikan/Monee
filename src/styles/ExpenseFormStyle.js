@@ -87,12 +87,12 @@ export const Box = styled.div`
   p {
     font-size: 28px;
     width: 250px;
-    height: 50px;
+    height: 60px;
     border-radius: 0.25em;
     text-decoration: none;
     text-align: center;
     background: white;
-    padding: 8px;
+    padding: 10px;
     margin-right: 30px;
     margin-top: 80px;
   }
