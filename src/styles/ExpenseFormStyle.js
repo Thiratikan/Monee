@@ -45,10 +45,19 @@ export const Budget = styled.div`
     margin-bottom: 15px;
     color: #5e5c5b;
     font-size: 25px;
+    font-family: "Lato", sans-serif;
+    font-weight: light;
   }
   h3 {
     color: #5e5c5b;
     font-size: 25px;
+    font-family: "Lato", sans-serif;
+    font-weight: light;
+  }
+  .delete-btn {
+    margin-left: 5px;
+    margin-top: -13px;
+    cursor: pointer;
   }
 `;
 
@@ -83,18 +92,30 @@ export const Box = styled.div`
     justify-content: center;
     align-content: space-between;
   }
+  span {
+    background-color: #f74d19;
+    color: white;
+    border-radius: 0.125em;
+    font-weight: 400;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+  }
 
   p {
-    font-size: 28px;
-    width: 250px;
+    font-size: 22px;
+    width: 280px;
     height: 60px;
     border-radius: 0.25em;
     text-decoration: none;
     text-align: center;
     background: white;
     padding: 10px;
+    padding-top: 15px;
     margin-right: 30px;
     margin-top: 80px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
   }
 
   h1 {
@@ -103,5 +124,36 @@ export const Box = styled.div`
     font-size: 100px;
     text-align: center;
     padding-top: 100px;
+  }
+
+  input {
+    background-color: #f74d19;
+    color: white;
+    border: none;
+    border-radius: 0.125em;
+    height: 30px;
+    width: 100px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+
+    text-align: center;
+    font-size: 22px;
+    margin-left: 10px;
+  }
+
+  input::placeholder {
+    color: white;
+  }
+
+  button {
+    margin-left: 8px;
+    font-family: "Montserrat Alternates", sans-serif;
+    border: none;
+    width: 45px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #f74d19;
+    font-weight: 700;
+    color: white;
   }
 `;

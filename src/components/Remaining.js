@@ -10,7 +10,9 @@ function Remaining() {
 
   return (
     <>
-      <p>Remaining ${budget - totalExpenses}</p>
+      <p>
+        Remaining <span>${budget - totalExpenses}</span>
+      </p>
     </>
   );
 }

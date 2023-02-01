@@ -9,7 +9,9 @@ function Spending() {
   }, 0);
   return (
     <>
-      <p>Spent ${totalExpenses}</p>
+      <p>
+        Spent <span>${totalExpenses}</span>
+      </p>
     </>
   );
 }
