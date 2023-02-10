@@ -6,17 +6,18 @@ export const Nav = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
+  position: sticky;
 
   .background-one {
-    background-color: #151515;
+    background-color: transparent;
   }
 
   .background-two {
-    background-color: #151515;
+    background-color: transparent;
   }
 
   .background-three {
-    background-color: #151515;
+    background-color: transparent;
   }
 
   .link-container {
@@ -35,7 +36,7 @@ export const Nav = styled.div`
   }
 
   .link-one {
-    color: #53d9d1;
+    color: black;
     transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
     line-height: 1em;
   }
@@ -157,7 +158,7 @@ export const Nav = styled.div`
   }
 
   .link-two {
-    color: #f27b9b;
+    color: black;
     transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
   }
 
@@ -221,7 +222,7 @@ export const Nav = styled.div`
   }
 
   .link-three {
-    color: #eb7132;
+    color: black;
   }
 
   .link-three::after {
